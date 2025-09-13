@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sorry Prishita 🎂</title>
+  <style>
+    body {
+      font-family: "Comic Sans MS", cursive;
+      margin: 0;
+      background-color: #fff0f6;
+      text-align: center;
+      overflow-x: hidden;
+    }
+
+    nav {
+      background: #ffb6c1;
+      padding: 15px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      position: sticky;
+      top: 0;
+    }
+
+    .nav-btn {
+      border: none;
+      background: #ff69b4;
+      color: white;
+      font-size: 16px;
+      padding: 10px 15px;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .nav-btn.active, .nav-btn:hover {
+      background: #e91e63;
+    }
+
+    .page {
+      display: none;
+      padding: 30px;
+      min-height: 80vh;
+    }
+
+    .page.active {
+      display: block;
+    }
+
+    h1, h2 {
+      color: #e91e63;
+    }
+
+    /* Falling items */
+    .falling {
+      position: fixed;
+      top: -50px;
+      font-size: 28px;
+      animation: fall linear forwards;
+    }
+
+    @keyframes fall {
+      to {
+        transform: translateY(100vh);
+        opacity: 0;
+      }
+    }
+
+    .card {
+      background: #fff0f6; 
+      border-radius: 15px;
+      padding: 30px;
+      margin: 30px auto;
+      width: 70%;
+      max-width: 700px;
+      box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .poetry {
+      font-size: 1.2rem;
+      line-height: 2;
+      color: #444;
+      white-space: pre-line;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <button class="nav-btn active" onclick="showPage('sorry')">Sorry</button>
+    <button class="nav-btn" onclick="showPage('memes')">Memes</button>
+    <button class="nav-btn" onclick="showPage('srk')">SRK</button>
+    <button class="nav-btn" onclick="showPage('poetry')">Poetry</button>
+  </nav>
+
+    <!-- Sorry Page -->
+    <div id="sorry" class="page active">
+    <div class="card">
+        <h1>🎂 Sorry for Missing Your Birthday 🎂</h1>
+        <p>
+        Sorry for not remembering your birthday this year as well.  
+        I was really caught up with work and honestly lost track of the date and day.  
+        I know it might feel like I’m irresponsible or don’t think about you, but that’s not true.  
+        </p>
+        <p>
+        This little website is proof that I admire our friendship and that you really do hold a special place in my heart, Prishita. 💖  
+        So swipe through the memes and the poetry, and you’ll know how much you mean to me.  
+        </p>
+        <p>
+        I am genuinely sorry. From being a fellow quiz participant to becoming a good friend,  
+        I’ve seen you grow and shine. Missing your 23rd birthday was embarrassing,  
+        but please remember
+        it doesn’t mean I care any less.  
+        </p>
+        <p>
+        Belated Happy Birthday Prishita, and thank you for being such a wonderful friend. 🎉🥳  
+        </p>
+    </div>
+    </div>
+
+
+  <!-- Memes Page -->
+  <div id="memes" class="page">
+    <h2></h2>
+    <div class="memes-container">
+      <img src="meme1.jpg" alt="Meme 1" style="max-width:70%; margin:20px auto; display:block; border-radius:10px; box-shadow:0 4px 8px rgba(0,0,0,0.2);">
+      <img src="meme2.jpg" alt="Meme 2" style="max-width:70%; margin:20px auto; display:block; border-radius:10px; box-shadow:0 4px 8px rgba(0,0,0,0.2);">
+      <img src="meme4.jpg" alt="Meme 4" style="max-width:70%; margin:20px auto; display:block; border-radius:10px; box-shadow:0 4px 8px rgba(0,0,0,0.2);">
+      <img src="meme5.jpg" alt="Meme 5" style="max-width:70%; margin:20px auto; display:block; border-radius:10px; box-shadow:0 4px 8px rgba(0,0,0,0.2);">
+      <img src="meme6.jpg" alt="Meme 5" style="max-width:70%; margin:20px auto; display:block; border-radius:10px; box-shadow:0 4px 8px rgba(0,0,0,0.2);">
+
+    </div>
+  </div>
+
+  <!-- SRK Page -->
+  <div id="srk" class="page">
+    <div class="card">
+      <h2>💖 Teri Amanat 💖</h2>
+      <video id="srk-video" autoplay muted playsinline style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);"></video>
+    </div>
+  </div>
+
+  <!-- poetry Page -->
+  <div id="poetry" class="page">
+    <div class="card">
+      <h2>🌸 Poetry 🌸</h2>
+      <p class="poetry">
+        शांत-शांत सी है, पर मन उसका चंचल है।
+        कुछ बोलती नहीं, पर दिमाग़ में उसके हलचल है।
+
+        पर पता नहीं कैसे इस उदासीन से चेहरे में भी इतनी सुंदर दिखती है,
+        लगता है बोलना तो बहुत कुछ चाहती है, पर मन में सब कुछ रखती है।
+        कितना भी सहलाओ, ये मानती नहीं — इसके मन की इतनी सख़्ती है।
+        पर मैं इतना आसानी से मोड़कर चल जाऊँ, इतनी कमज़ोर नहीं मेरी उसकी तरफ़ भक्ति है।
+
+        तारों जैसी आँखें रखकर भी हमेशा तिरछा उन्हें करती है।
+        भले ही बोलती ज़्यादा नहीं, पर काफ़ी मज़बूत उसकी स्मृति है।
+      </p>
+    </div>
+  </div>
+
+  <script>
+    function showPage(pageId) {
+      // Hide all pages
+      document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+
+      // Show selected page
+      const page = document.getElementById(pageId);
+      page.classList.add('active');
+
+      // Cake rain on sorry page
+      if (pageId === "sorry") {
+        startRain("🎂");
+      } else {
+        document.querySelectorAll('.falling').forEach(e => e.remove());
+      }
+    }
+
+    function startRain(symbol) {
+      // clear existing rain
+      document.querySelectorAll('.falling').forEach(e => e.remove());
+
+      for (let i = 0; i < 20; i++) {
+        let span = document.createElement('span');
+        span.textContent = symbol;
+        span.className = "falling";
+        span.style.left = Math.random() * 100 + "vw";
+        span.style.animationDuration = 2 + Math.random() * 3 + "s";
+        document.body.appendChild(span);
+
+        setTimeout(() => span.remove(), 5000);
+      }
+    }
+
+    // Start with cake rain
+    startRain("🎂");
+
+    // SRK looping videos
+    const srkVideos = ["srk1.mp4", "srk2.mp4", "srk3.mp4"];
+    let videoIndex = 0;
+
+    const videoEl = document.getElementById("srk-video");
+
+    function playNextVideo() {
+      videoEl.src = srkVideos[videoIndex];
+      videoEl.play();
+
+      videoEl.onended = () => {
+        videoIndex = (videoIndex + 1) % srkVideos.length;
+        playNextVideo();
+      };
+    }
+
+    playNextVideo();
+  </script>
+</body>
+</html>
